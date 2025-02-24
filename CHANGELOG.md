@@ -99,6 +99,8 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 <details>
 
+-   [`98336f5`](https://github.com/stdlib-js/stdlib/commit/98336f5011237a2d607be003f05060146e55d204) - **docs:** fix comment _(by Athan Reines)_
+-   [`1e9b650`](https://github.com/stdlib-js/stdlib/commit/1e9b650d29bc3584af013e3ef7d4206dc674b0dd) - **docs:** fix comment _(by Athan Reines)_
 -   [`a4b312d`](https://github.com/stdlib-js/stdlib/commit/a4b312d7b75231f171b3c475d884e17e350f2856) - **feat:** add `unaryFactory` to namespace _(by Athan Reines)_
 -   [`4b8fd47`](https://github.com/stdlib-js/stdlib/commit/4b8fd47d1f57a0953e24234cddf56ef81d9e01a5) - **feat:** add `math/array/tools/unary-factory` _(by Athan Reines)_
 -   [`17a0a25`](https://github.com/stdlib-js/stdlib/commit/17a0a25ecf237da6dcbe7cc0e8f660891b9253aa) - **docs:** fix example _(by Athan Reines)_
