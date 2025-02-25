@@ -78,6 +78,9 @@ The namespace contains the following:
 
 <div class="namespace-toc">
 
+-   <span class="signature">[`unaryFactory( fcn, idtypes, odtypes, policy )`][@stdlib/math/array/tools/unary-factory]</span><span class="delimiter">: </span><span class="description">create a function for applying a unary function to each element in an input array.</span>
+-   <span class="signature">[`unary( fcn, idtypes, odtypes, policy )`][@stdlib/math/array/tools/unary]</span><span class="delimiter">: </span><span class="description">constructor for applying a unary function to each element in an input array.</span>
+
 </div>
 
 <!-- </toc> -->
@@ -206,6 +209,10 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/math-array-tools/main/LICENSE
 
 <!-- <toc-links> -->
+
+[@stdlib/math/array/tools/unary-factory]: https://github.com/stdlib-js/math-array-tools-unary-factory
+
+[@stdlib/math/array/tools/unary]: https://github.com/stdlib-js/math-array-tools-unary
 
 <!-- </toc-links> -->
 

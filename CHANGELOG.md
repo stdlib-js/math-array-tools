@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-02-24)
+## Unreleased (2025-02-25)
 
 <section class="packages">
 
@@ -85,9 +85,10 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Philipp Burckhardt
 
 </section>
 
@@ -99,6 +100,7 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 <details>
 
+-   [`9d532b5`](https://github.com/stdlib-js/stdlib/commit/9d532b5510055d80c5df8ba4c8e897c1670dcd1a) - **docs:** update namespace table of contents [(#5438)](https://github.com/stdlib-js/stdlib/pull/5438) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`98336f5`](https://github.com/stdlib-js/stdlib/commit/98336f5011237a2d607be003f05060146e55d204) - **docs:** fix comment _(by Athan Reines)_
 -   [`1e9b650`](https://github.com/stdlib-js/stdlib/commit/1e9b650d29bc3584af013e3ef7d4206dc674b0dd) - **docs:** fix comment _(by Athan Reines)_
 -   [`a4b312d`](https://github.com/stdlib-js/stdlib/commit/a4b312d7b75231f171b3c475d884e17e350f2856) - **feat:** add `unaryFactory` to namespace _(by Athan Reines)_
