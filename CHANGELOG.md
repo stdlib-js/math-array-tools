@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-02-25)
+## Unreleased (2025-02-27)
 
 <section class="packages">
 
@@ -20,12 +20,25 @@
 
 ##### Features
 
+-   [`2f0aa48`](https://github.com/stdlib-js/stdlib/commit/2f0aa48ef6d561779d4bd4c4a54fe00a5a26c0e1) - update namespace TypeScript declarations [(#5436)](https://github.com/stdlib-js/stdlib/pull/5436)
 -   [`a4b312d`](https://github.com/stdlib-js/stdlib/commit/a4b312d7b75231f171b3c475d884e17e350f2856) - add `unaryFactory` to namespace
 -   [`824f294`](https://github.com/stdlib-js/stdlib/commit/824f29485447d0e3224d1fcc784f2355b6b7fd14) - add `math/array/tools` namespace
 
 </section>
 
 <!-- /.features -->
+
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`2f0aa48`](https://github.com/stdlib-js/stdlib/commit/2f0aa48ef6d561779d4bd4c4a54fe00a5a26c0e1): remove `mulf` symbol
+
+    -   To migrate, users should access the same symbol via the `number/float32/base` namespace.
+
+</section>
+
+<!-- /.breaking-changes -->
 
 </details>
 
@@ -81,6 +94,18 @@
 
 <!-- /.packages -->
 
+<section class="breaking-changes">
+
+### BREAKING CHANGES
+
+-   [`2f0aa48`](https://github.com/stdlib-js/stdlib/commit/2f0aa48ef6d561779d4bd4c4a54fe00a5a26c0e1): remove `mulf` symbol
+
+    -   To migrate, users should access the same symbol via the `number/float32/base` namespace.
+
+</section>
+
+<!-- /.breaking-changes -->
+
 <section class="contributors">
 
 ### Contributors
@@ -100,6 +125,7 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`2f0aa48`](https://github.com/stdlib-js/stdlib/commit/2f0aa48ef6d561779d4bd4c4a54fe00a5a26c0e1) - **feat:** update namespace TypeScript declarations [(#5436)](https://github.com/stdlib-js/stdlib/pull/5436) _(by stdlib-bot)_
 -   [`9d532b5`](https://github.com/stdlib-js/stdlib/commit/9d532b5510055d80c5df8ba4c8e897c1670dcd1a) - **docs:** update namespace table of contents [(#5438)](https://github.com/stdlib-js/stdlib/pull/5438) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`98336f5`](https://github.com/stdlib-js/stdlib/commit/98336f5011237a2d607be003f05060146e55d204) - **docs:** fix comment _(by Athan Reines)_
 -   [`1e9b650`](https://github.com/stdlib-js/stdlib/commit/1e9b650d29bc3584af013e3ef7d4206dc674b0dd) - **docs:** fix comment _(by Athan Reines)_
