@@ -42,13 +42,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-array-tools@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-array-tools/tags). For example,
+
+```javascript
 import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-array-tools@v0.1.0-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { unary, unaryFactory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-array-tools@v0.1.0-esm/index.mjs';
+import { unary, unaryFactory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-array-tools@esm/index.mjs';
 ```
 
 #### ns
@@ -90,7 +95,7 @@ The namespace contains the following:
 <script type="module">
 
 import abs from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-abs@esm/index.mjs';
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-array-tools@v0.1.0-esm/index.mjs';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-array-tools@esm/index.mjs';
 
 // Define a list of supported input dtypes:
 var idtypes = [
