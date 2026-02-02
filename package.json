@@ -36,9 +36,9 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/math-array-tools-unary": "github:stdlib-js/math-array-tools-unary#main",
-    "@stdlib/math-array-tools-unary-factory": "github:stdlib-js/math-array-tools-unary-factory#main",
-    "@stdlib/utils-define-read-only-property": "^0.2.2"
+    "@stdlib/math-array-tools-unary": "^0.1.0",
+    "@stdlib/math-array-tools-unary-factory": "^0.1.0",
+    "@stdlib/utils-define-read-only-property": "^0.2.3"
   },
   "devDependencies": {
     "@stdlib/array-base-assert-contains": "^0.2.2",
@@ -70,8 +70,8 @@
     "@stdlib/number-float64-base-identity": "^0.1.0",
     "@stdlib/random-array-uniform": "^0.2.1",
     "@stdlib/strided-base-unary": "^0.3.0",
-    "@stdlib/string-format": "^0.2.2",
-    "@stdlib/utils-define-nonenumerable-read-only-property": "^0.2.2",
+    "@stdlib/string-format": "^0.2.3",
+    "@stdlib/utils-define-nonenumerable-read-only-property": "^0.2.3",
     "@stdlib/utils-keys": "^0.2.2",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
