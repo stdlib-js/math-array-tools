@@ -42,13 +42,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-array-tools@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-array-tools/tags). For example,
+
+```javascript
 import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-array-tools@v0.1.1-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { unary, unaryFactory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-array-tools@v0.1.1-deno/mod.js';
+import { unary, unaryFactory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-array-tools@deno/mod.js';
 ```
 
 #### ns
@@ -85,7 +90,7 @@ The namespace contains the following:
 
 ```javascript
 import abs from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-abs@deno/mod.js';
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-array-tools@v0.1.1-deno/mod.js';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-array-tools@deno/mod.js';
 
 // Define a list of supported input dtypes:
 var idtypes = [
